@@ -1,0 +1,14 @@
+{
+	"name": "Arc",
+	"short_name": "Arc",
+	"start_url": "/",
+	"description": "Arc is an amazing site that can be used for students struggling in STEM related classes.",
+	"icons": [
+		{
+		"src": "img/arc.png",
+			"sizes": "512x512",
+			"type": "image/png"
+		}
+	],
+	"display": "fullscreen"
+}

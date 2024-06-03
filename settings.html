@@ -1,0 +1,156 @@
+<html lang="en">
+   
+<!-- Mirrored from arc.fin-tech.com/settings.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Jun 2024 21:46:40 GMT -->
+<!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=UTF-8" /><!-- /Added by HTTrack -->
+<head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Arc</title>
+      <link href="css/output.css" rel="stylesheet" />
+      <link href="css/main.html" />
+      <script src="https://cdn.tailwindcss.com/"></script>
+      <script src="uv/uv.bundle.js" defer></script>
+      <script src="uv/uv.config.js" defer></script>
+      <script src="../kit.fontawesome.com/a70619ef6c.js" crossorigin="anonymous"></script>
+      <script src="js/mathhelp/regsw.js" defer></script>
+      <script src="js/mathhelp/pre.js" defer></script>
+   </head>
+   <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins&amp;display=swap');
+      .center {
+      margin: 0;
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      text-align: center;
+      }
+      .button-grid {
+         position: relative;
+        transform: translate(-15%, 20%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      }
+      .image-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 64px;
+      height: 64px;
+      padding: 5px;
+      border: none;
+      cursor: pointer;
+      }
+      .image-button img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      }
+      body {
+      background: #1d1d1d;
+      margin: 0;
+      padding: 0;
+      opacity: 0;
+      transition: opacity .5s;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      user-select: none;
+      font-family: 'Poppins', sans-serif;
+      color: white;
+      overflow: hidden;
+      }
+      #sidebar {
+      height: 125px;
+      width: 60px;
+      position: fixed;
+      top: 0;
+      left: 1%;
+      padding: 5px;
+      border-radius: 20px;
+      background-color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      top: 50%;
+      transform: translateY(-50%);
+      justify-content: center; /* Center vertically */
+      }
+      .title{
+      font-family: 'Poppins', sans-serif;
+      font-size: 50px;
+      font-weight: 600;
+      padding: 5px;
+      }
+      #sidebar a {
+      color: white;
+      text-decoration: none;
+      padding: 15px 0;
+      text-align: center;
+      cursor: pointer;
+      line-height: 1; /* Adjust line-height for vertical centering */
+      }
+      #content {
+      margin-left: 60px;
+      padding: 20px;
+      }
+      input {
+      width: 185px;
+      padding-bottom: 5px;
+      height: 50px;
+      background-color: transparent;
+      margin: 5px;
+      padding: 5px;
+      color: white; 
+      border-width: 1px;
+      display: flex;
+      text-align: center;
+      border-radius: 8px;
+      }
+      button {
+      width: 185px;
+      height: 50px;
+      background-color: transparent;
+      margin: 5px;
+      padding: 5px !important; 
+      color: white; 
+      border-width: 1px;
+      border-radius: 8px;
+      }
+      .section {
+      margin-bottom: 200vh; /* Adjust this value based on your content height */
+      }
+   </style>
+   <body>
+      <div id="sidebar">
+         <a href="#cloaking"><i class="fa-solid fa-mask selected text-sky-200 text-4xl hover:cursor-pointer px-2"></i></a>
+         <a href="#profile"><i class="fa-solid fa-user selected text-sky-200 text-4xl hover:cursor-pointer px-2"></i></a>
+      </div>
+      <div id="content">
+         <div id="cloaking" class="section">
+             <div class="button-grid">
+                 <h1 class="title">Cloaking</h1>
+                 <br>
+                 <input placeholder="Tab name">
+                 <br>
+                 <input placeholder="Tab favicon">
+                 <br>
+                 <button onclick="ab()">about:blank</button>
+             </div>
+         </div>
+         <div id="profile" class="section">
+             <div class="button-grid">
+                 <h1 class="title">Profile Settings</h1>
+                 <br>
+                 <button onclick="resetData()">Reset Data</button>
+             </div>
+         </div>
+     </div>
+      <script src="js/mathhelp/search.js" defer></script>
+      <script src="js/settings.js" defer></script>
+   </body>
+
+<!-- Mirrored from arc.fin-tech.com/settings.html by HTTrack Website Copier/3.x [XR&CO'2014], Mon, 03 Jun 2024 21:46:41 GMT -->
+</html>
